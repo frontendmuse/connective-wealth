@@ -1,0 +1,90 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+}
+
+.faq-title {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #00afbf;
+}
+
+.accordion-item:first-child {
+    border-top: 1px solid #00afbf;
+}
+
+.accordion-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: opacity 0.2s ease;
+}
+
+.accordion-button:hover {
+    opacity: 0.7;
+}
+
+.accordion-question {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+.accordion-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.accordion-icon.open {
+    transform: rotate(45deg);
+}
+
+.accordion-icon svg {
+    display: block;
+}
+
+.accordion-content {
+    padding: 0 0 24px 0;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

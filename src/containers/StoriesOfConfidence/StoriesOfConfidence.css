@@ -1,0 +1,326 @@
+/* .stories-container {
+    display: flex;
+    padding: 80px 40px;
+    gap: 80px;
+    background-color: #fff9f5;
+}
+
+.stories-left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-title {
+    font-size: 80px;
+    font-weight: 300;
+    color: #00afbf;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.rating {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+
+.star {
+    color: #1a1a1a;
+}
+
+.star-half {
+    color: #1a1a1a;
+    opacity: 0.5;
+}
+
+.stats {
+    font-size: 24px;
+    color: #002e2d;
+    line-height: 1.5;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.stories-right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-card {
+    background-color: #fff;
+    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.story-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00afbf;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.story-text {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #002e2d;
+    font-weight: 400;
+    padding: 24px 0px;
+}
+
+.story-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffa600;
+    padding: 8px 0px;
+    font-weight: 400;
+}
+
+.story-role {
+    font-size: 14px;
+    color: #ffa600;
+    font-weight: 400;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pagination-dot {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #ffa600;
+    background-color: white;
+    color: #ffa600;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-dot.active {
+    border: 1px solid #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.pagination-dot.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    color: #ffa600;
+    background-color: transparent;
+}
+
+.pagination-arrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+
+.pagination-dot:not(.disabled):hover {
+    border-color: #ff9800;
+    color: #ff9800;
+} */
+.stories-container {
+    display: flex;
+    padding: 80px 40px;
+    gap: 80px;
+    background-color: #fff9f5;
+}
+
+.stories-left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-title {
+    font-size: 80px;
+    font-weight: 300;
+    color: #00afbf;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.rating {
+    font-size: 32px;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+
+.star {
+    color: #1a1a1a;
+}
+
+.star-half {
+    color: #1a1a1a;
+    opacity: 0.5;
+}
+
+.stats {
+    font-size: 24px;
+    color: #002e2d;
+    line-height: 1.5;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.stories-right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-card {
+    background-color: #fff;
+    margin-bottom: 8px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.story-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00afbf;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.story-text {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #002e2d;
+    font-weight: 400;
+    padding: 24px 0px;
+}
+
+.story-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffa600;
+    padding: 8px 0px;
+    font-weight: 400;
+}
+
+.story-role {
+    font-size: 14px;
+    color: #ffa600;
+    font-weight: 400;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pagination-dot {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #ffa600;
+    background-color: white;
+    color: #ffa600;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-dot.active {
+    border: 1px solid #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.pagination-dot.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    color: #ffa600;
+    background-color: transparent;
+}
+
+.pagination-arrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+.pagination-dot:not(.disabled):hover {
+    border-color: #ff9800;
+    color: #ff9800;
+}
+
+@media (max-width: 768px) {
+    .stories-container {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .rating {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .stats {
+        font-size: 24px;
+    }
+
+    .story-title {
+        font-size: 24px;
+    }
+
+    .story-text {
+        font-size: 14px;
+        padding: 24px 0px;
+    }
+
+    .story-name {
+        font-size: 18px;
+        padding: 8px 0px;
+    }
+
+    .story-role {
+        font-size: 14px;
+    }
+}

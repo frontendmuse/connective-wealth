@@ -1,0 +1,117 @@
+.cta-container {
+    background-color: #002e2d;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.cta-content {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.cta-heading {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 16px 0;
+    line-height: 1.3;
+}
+
+.cta-description {
+    color: #00afbf;
+    font-size: 24px;
+    line-height: 1.6;
+    margin: 0 0 32px 0;
+}
+
+.cta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cta-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.cta-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #00afbf;
+    color: #fff;
+    padding: 12px 0;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-weight: 400;
+}
+
+.cta-input::placeholder {
+    color: #00afbf;
+    opacity: 30%;
+}
+
+.cta-input:focus {
+    border-bottom-color: #4dd4d4;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #002e2d;
+    border: none;
+    padding: 14px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 320px;
+    align-self: center;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:active {
+    transform: translateY(0);
+}
+
+.cta-button-orange {
+    background-color: #ff9900;
+    color: #0a4d4d;
+    font-weight: 600;
+}
+
+.cta-button-green {
+    background-color: #c8ff66;
+    color: #0a4d4d;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+    .cta-container {
+        padding: 40px 20px;
+    }
+
+    .cta-heading {
+        font-size: 1.5rem;
+    }
+
+    .cta-description {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 12px 32px;
+        font-size: 0.9rem;
+    }
+}

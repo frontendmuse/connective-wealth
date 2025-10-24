@@ -1,0 +1,45 @@
+.images-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.financial-gym {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.footer-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 640px) {
+    .images-group img {
+        width: 28px;
+        height: 34px;
+    }
+
+    .images-group {
+        padding: 64px 0px 40px 0px;
+    }
+
+    .footer-btn {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-container {
+        padding: 0px 24px;
+        flex-direction: column;
+        gap: 0px;
+    }
+}

@@ -1,0 +1,176 @@
+.financial-gym-container {
+    background-color: #f5ebe0;
+    position: relative;
+}
+
+.content-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-heading {
+    color: #1a3a3a;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 0 30px 0;
+    letter-spacing: -0.5px;
+}
+
+.description {
+    color: #2c4a4a;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 auto 40px;
+    max-width: 600px;
+    font-weight: 400;
+}
+
+.gym-cta-button {
+    background-color: #0d3d3d;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.gym-cta-button:hover {
+    background-color: #0a2f2f;
+    transform: translateY(-2px);
+}
+
+.gym-cta-button:active {
+    transform: translateY(0);
+}
+
+.logo-section {
+    margin-top: 60px;
+}
+
+.logo-text {
+    color: #2a9d8f;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+}
+
+.powered-by {
+    color: #1a3a3a;
+    font-size: 0.95rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 64px;
+}
+
+.connective-logo {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.schedule-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 40px 20px 0px;
+}
+
+.schedule-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(230, 126, 34, 0.5);
+}
+
+.schedule-button:active {
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .description {
+        font-size: 0.95rem;
+        margin-bottom: 32px;
+    }
+
+    .gym-cta-button {
+        padding: 14px 28px;
+        font-size: 0.95rem;
+        margin-bottom: 60px;
+    }
+
+    .logo-text {
+        font-size: 2rem;
+    }
+
+    .powered-by {
+        font-size: 0.85rem;
+        padding-top: 0px;
+        white-space: nowrap;
+    }
+
+    .schedule-button {
+        bottom: 20px;
+        right: 20px;
+        padding: 14px 24px;
+        font-size: 0.9rem;
+    }
+    .schedule-btn {
+        display: none;
+    }
+    .content-wrapper {
+        padding: 0px 24px;
+    }
+    .logo-section {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-heading {
+        font-size: 1.75rem;
+        margin-bottom: 0px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin-bottom: 28px;
+    }
+
+    .gym-cta-button {
+        width: 100%;
+        max-width: 320px;
+        padding: 14px 24px;
+        margin-bottom: 40px;
+    }
+
+    .logo-text {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+
+    .powered-by {
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+
+    .schedule-button {
+        display: none;
+    }
+
+    .schedule-button::before {
+        width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+    }
+}

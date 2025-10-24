@@ -1,0 +1,73 @@
+.coaching-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2rem;
+    padding: 40px 60px 0px 60px;
+}
+
+.coaching-feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.coaching-feature-icon {
+    width: 48px;
+    height: 48px;
+    color: #00bcd4;
+    margin-bottom: 1rem;
+}
+
+.coaching-feature-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.coaching-text-content {
+    border-top: 1px solid #ffa600;
+}
+
+.coaching-feature-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00bcd4;
+    margin: 16px 0px;
+    line-height: 1.4;
+}
+
+.coaching-feature-text {
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .coaching-features-grid {
+        display: none;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .coaching-feature-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .coaching-feature-heading {
+        font-size: 0.95rem;
+    }
+
+    .coaching-feature-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .coaching-features-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
