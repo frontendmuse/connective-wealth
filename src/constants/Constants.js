@@ -26,6 +26,9 @@ import IntegrationsIcon from '../../src/assets/images/svgs/seamless-integration.
 import MagnifiIcon from '../../src/assets/images/svgs/magnifi.svg';
 import TifinIcon from '../../src/assets/images/svgs/tifin.svg';
 import ConnectiveIcon from '../../src/assets/images/svgs/connective-tech.svg';
+import supervisorAccount from '../../src/assets/images/svgs/supervisor-account.svg';
+import delegation from '../../src/assets/images/svgs/approval-delegation.svg';
+import framePerson from '../../src/assets/images/svgs/frame-person.svg';
 import debtImage from '../assets/images/pngs/coach1.png';
 import startingImage from '../assets/images/pngs/coach2.png';
 import growingImage from '../assets/images/pngs/coach3.png';
@@ -37,6 +40,8 @@ import coach5 from '../assets/images/pngs/coach5.png';
 import coach6 from '../assets/images/pngs/coach6.png';
 import coach7 from '../assets/images/pngs/coach7.png';
 import coach8 from '../assets/images/pngs/coach8.png';
+import coach9 from '../assets/images/pngs/coach9.png';
+import coach10 from '../assets/images/pngs/coach10.png';
 
 export const HEADER_TITLE = 'Feel good about your money.';
 
@@ -779,3 +784,178 @@ export const technologyPartners = [
         accentColor: '#00BCD4',
     },
 ];
+
+export const ABOUT_US_DATA = {
+    mainHeading: "Money isn't just numbers. It's personal.",
+    subHeading:
+        "At Connective, we believe financial freedom comes from confidence, clarity, and consistency, not quick fixes. That's why we combine human coaching, smart technology, and real empathy to help people at every stage of their money journey.",
+    ctaButton: 'Schedule a Call',
+
+    mission: {
+        preText: 'Two founders. One mission:',
+        mainText: 'make money human.',
+        description:
+            'Connective was built on a simple idea, financial guidance should be personal, approachable, and free of judgment.',
+    },
+
+    founders: [
+        {
+            name: 'Andrew Nigrelli',
+            description:
+                'After years in financial services, Andrew saw how traditional wealth management left people behind. He brings expertise in financial planning and behavioral change, making care the heart of every client relationship.',
+        },
+        {
+            name: 'Ian Rosen',
+            description:
+                "Coming from technology and digital innovation, Ian knows how to make complex systems simple. He leads Connective's focus on human-first technology, HumAIn, that empowers, not overwhelms.",
+        },
+    ],
+
+    closingText:
+        'Together, they built Connective to blend empathy, expertise, and innovation into one promise, to make you feel good about your money.',
+};
+
+export const TECH_POWERED_DATA = {
+    mainHeading: 'Tech-powered. Human-first.',
+    subHeading:
+        "We're not just another financial app and we're not a traditional advisory firm. Connective is a tech-enabled coaching and advisory platform built to empower people, not overwhelm them. Our philosophy rests on three pillars:",
+    pillars: [
+        {
+            id: 1,
+            title: 'Coaching with Care',
+            description:
+                'We help you build healthy habits, budgeting, saving, and planning with personal guidance that meets you where you are. Every session is about clarity, confidence, and real progress.',
+            icon: supervisorAccount,
+        },
+        {
+            id: 2,
+            title: 'Wealth Management',
+            description:
+                'With HumAIn, our proprietary system that blends Human + AI + Insight, we design, track, and adapt wealth plans in real time. It gives advisors sharper tools and clients clearer, faster results.',
+            icon: delegation,
+        },
+        {
+            id: 3,
+            title: 'Human-First Difference',
+            description:
+                'Technology powers us, but people define us. Every plan, product, and partnership at Connective is built around empathy, trust, and human connection.',
+            icon: framePerson,
+        },
+    ],
+    footerText:
+        "At the heart of this is HumAIn, our proprietary system that brings Human + AI + Insight together. It blends intelligent technology with human understanding, giving our coaches and advisors the tools to deliver care that's personalized, scalable, and deeply human.",
+};
+
+export const TEAM_DATA = {
+    heading: 'The people shaping Connective',
+    subheading:
+        'Our leadership team blends experience across finance, technology, design, and consumer brands. Together, they ensure Connective stays true to its mission: making money approachable, actionable, and achievable for everyone.',
+    members: [
+        {
+            id: 1,
+            name: 'Ian',
+            position: 'Position',
+            description:
+                'Forcm ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringit',
+            image: coach9,
+        },
+        {
+            id: 2,
+            name: 'Andrew',
+            position: 'Position',
+            description:
+                'Forcm ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringit',
+            image: coach10,
+        },
+        {
+            id: 3,
+            name: 'Taylor',
+            position: 'Position',
+            description:
+                'Forcm ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringit',
+            image: coach7,
+        },
+    ],
+};
+
+export const TEAM_COACHES_DATA = [
+    {
+        name: 'Bigby',
+        position: 'Position',
+        image: growingImage,
+    },
+    {
+        name: 'Catriona Williams',
+        position: 'Position',
+        image: debtImage,
+    },
+    {
+        name: 'Kadri Augustin',
+        position: 'Position',
+        image: startingImage,
+    },
+    {
+        name: 'Erika Moromisato',
+        position: 'Position',
+        image: coach4,
+    },
+    {
+        name: ' Kadri Augustin',
+        position: 'Position',
+        image: coach5,
+    },
+    {
+        name: 'Kylie Lipinski',
+        position: 'Position',
+        image: coach6,
+    },
+    {
+        name: 'Garrett Faulconer ',
+        position: 'Position',
+        image: coach7,
+    },
+    {
+        name: 'Tina Hang',
+        position: 'Position',
+        image: coach8,
+    },
+    {
+        name: 'Ian',
+        position: 'Position',
+        image: coach9,
+    },
+    {
+        name: 'Andrew',
+        position: 'Position',
+        image: coach10,
+    },
+    {
+        name: 'Bigby',
+        position: 'Position',
+        image: growingImage,
+    },
+    {
+        name: 'Catriona Williams',
+        position: 'Position',
+        image: debtImage,
+    },
+    {
+        name: 'Kadri Augustin',
+        position: 'Position',
+        image: startingImage,
+    },
+];
+
+export const NORTH_STAR_DATA = {
+    heading: 'OUR NORTH STAR',
+    description:
+        "At Connective, we believe money should bring comfort, not pressure. Everyone deserves to feel confident and cared for, no matter where they are in life. That's why we combine empathy, expertise, and technology that supports, not overwhelms, to help you build trust, clarity, and lasting confidence with your money.",
+};
+
+export const FINANCIAL_FREEDOM_DATA = {
+    title: "Financial freedom isn't built alone.",
+    paragraph1:
+        "We know financial freedom can't be built in silos. That's why we partner with leading technology platforms, data providers, and innovation labs to continually strengthen the core we give our clients. Rather than piling on tools, we thoughtfully curate an ecosystem integrating with trusted partners like Magnifi and Tifin, while also developing proprietary Connective technology to ensure every member has access to solutions that are simple, relevant, and empowering.",
+    paragraph2:
+        "For us, partnerships aren't just integrations. They're genuine collaborations that make financial coaching more personal, more scalable, and ultimately, more impactful for every individual and family we serve.",
+};

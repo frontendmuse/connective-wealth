@@ -1,0 +1,122 @@
+.north-star-container {
+    background-color: #002e2d;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    position: relative;
+}
+
+.north-star-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: 00AFBF;
+    z-index: 1;
+}
+
+.north-star-content {
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.north-star-heading {
+    color: #ffa600;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.north-star-description {
+    color: #f9f9fa;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 300;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .north-star-container {
+        padding: 80px 24px;
+    }
+
+    .north-star-description {
+        font-size: 16px;
+    }
+}
+
+/* Financial Freedom Section */
+.financial-freedom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    padding: 70px 120px 0px 120px;
+}
+
+.financial-freedom-content {
+    flex: 1;
+    padding: 40px 120px 120px 120px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.financial-freedom-title {
+    font-size: 48px;
+    font-weight: 300;
+    color: #00afbf;
+    line-height: 1.2;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.financial-freedom-text {
+    color: #002e2d;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.financial-freedom-text p {
+    padding-bottom: 40px;
+}
+
+.financial-freedom-text p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 968px) {
+    .financial-freedom-container {
+        flex-direction: column;
+    }
+
+    .financial-freedom-image img {
+        padding: 64px 24px 0px 24px;
+    }
+
+    .financial-freedom-content {
+        padding: 32px 24px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .financial-freedom-title {
+        font-size: 32px;
+    }
+    .financial-freedom-text {
+        font-size: 14px;
+    }
+    .financial-freedom-text p {
+        padding-bottom: 32px;
+    }
+}
