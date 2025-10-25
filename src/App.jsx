@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import './index.css';
 import WealthManagement from './pages/WealthManagement/WealthManagement';
 import AboutUs from './pages/AboutUs/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/financial-coaching" element={<FinancialCoaching />} />
                 <Route path="/wealth-management" element={<WealthManagement />} />
                 <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/contact-us" element={<ContactUs />} />
             </Routes>
             <FooterSection />
         </div>

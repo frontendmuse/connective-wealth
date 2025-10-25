@@ -247,39 +247,6 @@ export const TESTIMONIAL_DATA = {
     ],
 };
 
-export const FAQ_DATA = [
-    {
-        id: 1,
-        question: 'What is Connective?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-    {
-        id: 2,
-        question: 'What is financial coaching?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-    {
-        id: 3,
-        question: 'What makes your trainers qualified to give financial advice?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-    {
-        id: 4,
-        question: 'How does coaching work at Connective?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-    {
-        id: 5,
-        question: 'How does advising work at Connective?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-    {
-        id: 6,
-        question: 'Do you work with people who are struggling financially?',
-        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
-    },
-];
-
 export const INSIGHTS_DATA = {
     sectionTitle: 'INSIGHTS SECTION',
     mainHeading: 'Money, made simple.',
@@ -958,4 +925,202 @@ export const FINANCIAL_FREEDOM_DATA = {
         "We know financial freedom can't be built in silos. That's why we partner with leading technology platforms, data providers, and innovation labs to continually strengthen the core we give our clients. Rather than piling on tools, we thoughtfully curate an ecosystem integrating with trusted partners like Magnifi and Tifin, while also developing proprietary Connective technology to ensure every member has access to solutions that are simple, relevant, and empowering.",
     paragraph2:
         "For us, partnerships aren't just integrations. They're genuine collaborations that make financial coaching more personal, more scalable, and ultimately, more impactful for every individual and family we serve.",
+};
+
+export const CONTACT_FORM_DATA = {
+    title: "Your journey matters, we're here whenever you need us",
+    description:
+        'Whether you have a question, need guidance, or just want to talk about your money journey, reach out anytime. A caring member of our team will get back to you soon.',
+    fields: {
+        fullName: 'Full name',
+        phoneNumber: 'Phone number',
+        emailId: 'Email ID',
+        preferredTime: 'Preferred time to connect',
+        preferredDay: 'Preferred day to connect',
+        yourMessage: 'Your message',
+    },
+    buttonText: 'SCHEDULE A CALL',
+};
+
+export const FAQ_DATA = [
+    {
+        id: 1,
+        question: 'What is Connective?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+    {
+        id: 2,
+        question: 'What is financial coaching?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+    {
+        id: 3,
+        question: 'What makes your trainers qualified to give financial advice?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+    {
+        id: 4,
+        question: 'How does coaching work at Connective?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+    {
+        id: 5,
+        question: 'How does advising work at Connective?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+    {
+        id: 6,
+        question: 'Do you work with people who are struggling financially?',
+        answer: "Finance doesn't need to feel overwhelming. Our blogs breaks it down with practical tips, fresh perspectives, and real stories, so you can make better money choices with confidence, not jargon.",
+    },
+];
+
+export const CONTACT_FAQ_DATA = [
+    {
+        id: 1,
+        section: 'In general',
+        questions: [
+            {
+                id: '1-1',
+                question: 'What services do you offer?',
+                answer: 'We offer comprehensive financial services including coaching, advisory, and technology solutions.',
+            },
+            {
+                id: '1-2',
+                question: 'How do I sign up?',
+                answer: 'You can sign up through our website or mobile app in just a few minutes.',
+            },
+        ],
+    },
+    {
+        id: 2,
+        section: 'Coaching',
+        questions: [
+            {
+                id: '2-1',
+                question: 'What is financial coaching?',
+                answer: 'Financial coaching is a personalized service that helps you develop better money management skills and achieve your financial goals.',
+            },
+            {
+                id: '2-2',
+                question: 'How do I get matched with a coach?',
+                answer: 'Our matching system pairs you with a coach based on your financial goals, preferences, and availability.',
+            },
+            {
+                id: '2-3',
+                question: 'Do I need to know a lot about money before starting coaching?',
+                answer: 'No prior knowledge is required. Our coaches work with people at all levels of financial literacy.',
+            },
+            {
+                id: '2-4',
+                question: 'How often will I meet with my coach?',
+                answer: 'Meeting frequency varies based on your needs, typically ranging from weekly to monthly sessions.',
+            },
+            {
+                id: '2-5',
+                question: 'Can I switch coaches if I want to?',
+                answer: 'Yes, you can request a coach change at any time to ensure the best fit for your needs.',
+            },
+        ],
+    },
+    {
+        id: 3,
+        section: 'Advisory',
+        questions: [
+            {
+                id: '3-1',
+                question: 'What is financial advisory?',
+                answer: 'Financial advisory provides expert guidance on investments, retirement planning, and wealth management.',
+            },
+            {
+                id: '3-2',
+                question: 'How is advisory different from coaching?',
+                answer: 'Advisory focuses on investment strategies and wealth management, while coaching helps with day-to-day money habits.',
+            },
+        ],
+    },
+    {
+        id: 4,
+        section: 'Technology & Access',
+        questions: [
+            {
+                id: '4-1',
+                question: 'What platforms do you support?',
+                answer: 'Our services are available on web, iOS, and Android platforms.',
+            },
+            {
+                id: '4-2',
+                question: 'Is there a mobile app?',
+                answer: 'Yes, we have mobile apps available for both iOS and Android devices.',
+            },
+        ],
+    },
+    {
+        id: 5,
+        section: 'Getting Started',
+        questions: [
+            {
+                id: '5-1',
+                question: 'How do I begin?',
+                answer: 'Simply create an account and complete our brief onboarding questionnaire.',
+            },
+            {
+                id: '5-2',
+                question: 'Is there a free trial?',
+                answer: 'Yes, we offer a 14-day free trial for all new users.',
+            },
+        ],
+    },
+];
+
+export const CONTACT_INFO_DATA = {
+    phone: '(646) 609-2225',
+    address: '205 Hudson St, Floor 8 New York City, NY 10013',
+    email: 'info@connective.com',
+};
+
+export const SPA_INFO = {
+    name: 'Sisley Spa at The Dominick',
+    specialOffer: '60 Min Spa Special',
+    price: '$169',
+    location: 'Spa in NYC',
+    floor: 'floor 8',
+};
+
+export const contactTestimonialData = {
+    trustText: 'Trusted by over 15,000+ people',
+    testimonials: [
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+        {
+            text: 'Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia...',
+            author: 'John Doe, Software Engineer',
+        },
+    ],
 };

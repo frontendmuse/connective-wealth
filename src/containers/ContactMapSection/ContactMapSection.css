@@ -1,0 +1,199 @@
+.spa-location-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        sans-serif;
+}
+
+.map-container {
+    padding: 0px 64px;
+}
+
+.map-placeholder {
+    width: 100%;
+    height: 100%;
+}
+
+.map-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mock map styling (remove when using real map image) */
+.map-mock {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e8e8e8 0%, #d4d4d4 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-marker {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    font-size: 32px;
+    transform: translate(-50%, -50%);
+}
+
+.map-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 11px;
+    line-height: 1.4;
+    max-width: 180px;
+}
+
+.map-info strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.location-marker {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    background: #555;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.street-labels {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+    color: #666;
+    font-weight: 500;
+}
+
+.street-labels span {
+    position: absolute;
+}
+
+.street-labels span:nth-child(1) {
+    top: 55%;
+    left: 15%;
+}
+
+.street-labels span:nth-child(2) {
+    bottom: 35%;
+    left: 40%;
+}
+
+.street-labels span:nth-child(3) {
+    top: 30%;
+    right: 25%;
+}
+
+.street-labels span:nth-child(4) {
+    top: 50%;
+    right: 18%;
+}
+
+.street-labels span:nth-child(5) {
+    top: 15%;
+    right: 10%;
+    font-weight: 600;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 92px 120px 92px;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.icon-wrapper {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f8f8f8;
+    color: #00b8a9;
+}
+
+.icon-wrapper svg {
+    width: 20px;
+    height: 20px;
+    stroke: #00b8a9;
+}
+
+.phone-icon {
+    color: #00b8a9;
+}
+
+.location-icon {
+    color: #00b8a9;
+}
+
+.email-icon {
+    color: #00b8a9;
+}
+
+.contact-text {
+    font-size: 24px;
+    color: #575757;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        padding: 25px 20px;
+        gap: 25px;
+    }
+
+    .contact-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-text {
+        max-width: 100%;
+    }
+
+    .map-container {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .map-info {
+        font-size: 10px;
+        padding: 8px 10px;
+        max-width: 150px;
+    }
+
+    .street-labels {
+        font-size: 10px;
+    }
+
+    .contact-text {
+        font-size: 13px;
+    }
+}

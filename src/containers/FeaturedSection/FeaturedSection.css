@@ -85,7 +85,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    margin: 0px 0px 40px 40px;
+    padding: 0px 0px 40px 64px;
 }
 
 .star-rating {
@@ -161,7 +161,6 @@
     font-size: 48px;
     line-height: 1.5;
     color: #00afbf;
-    /* margin-bottom: 12px; */
     font-weight: 300;
 }
 
@@ -184,15 +183,12 @@
     .quote-card {
         min-width: 300px;
     }
-
     .quote-text {
         font-size: 32px;
     }
-
     .quote-author {
         font-size: 14px;
     }
-
     .description-text {
         font-size: 14px;
     }
